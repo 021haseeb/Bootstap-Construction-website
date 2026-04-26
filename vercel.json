@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "constra-construction",
+  "buildCommand": "npm run build",
+  "outputDirectory": "theme",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/projects", "destination": "/projects.html" },
+    { "source": "/team", "destination": "/team.html" },
+    { "source": "/faq", "destination": "/faq.html" },
+    { "source": "/pricing", "destination": "/pricing.html" },
+    { "source": "/testimonials", "destination": "/testimonials.html" },
+    { "source": "/news", "destination": "/news-left-sidebar.html" },
+    { "source": "/404", "destination": "/404.html" }
+  ]
+}
+
